@@ -40,7 +40,7 @@ console.log(a);
 a;
 console.log(a);
 
-
+/---------------------------------/ 
 
 let b = 20;
 console.log(b);
@@ -51,14 +51,15 @@ let age = 20;
 let userIntro = ' Hi I am ' + userName;
 console.log(userIntro);
 
-let userIntro2 = 'Hi I am ' + age + ' years old ';
+let userIntro2 = - age +5 + ' years old ';
 console.log(userIntro2);
 
-{
-var firstName = 'puja';
-}
+console.log(firstName);
+ 
+ var firstName = 'puja';
 
-let lastName = 'Singh';
+
+ let lastName = 'Singh';
 
 let age2 = 20;
 let isHappy = true;
@@ -71,14 +72,15 @@ console.log(userIntro3);
 const hoursInDay = 24;
 console.log(hoursInDay);
 
-// alert('This is an alert box!');
-// confirm('Do you want to proceed?');
+//  alert('This is an alert box!');
+//   confirm('Do you want to proceed?');
 
-// const isConfirmed = confirm('Do you want to proceed?');
-// prompt('Please enter your name');
+//  const isConfirmed = confirm('Do you want to proceed?');
+//  console.log(isConfirmed);
+//  prompt('Please enter your name');
 
-// const userInputName = prompt('Please enter your name');
-// console.log(userInputName);
+//  const userInputName = prompt('Please enter your name');
+//  console.log(userInputName);
 
 
 const message = 'Hello, World!';
