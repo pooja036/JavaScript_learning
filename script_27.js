@@ -47,13 +47,16 @@ console.log(canAccess);
 
 let UserAge = 18;
 let isCollegeStudent = UserAge >= 16 && UserAge <= 25;
-let isSchoolStudent = UserAge >= 5 && UserAge <= 25;
+console.log(isCollegeStudent);
+
+let isSchoolStudent = UserAge >= 5 && UserAge <= 17;
+console.log(isSchoolStudent);
 
 let isStudent = isCollegeStudent || isSchoolStudent;
 
 console.log(isStudent);
 
-const andResult2 = 'Hello' && null;
+const andResult2 = 'Hello' && 58;
 const oorResult2 = 'Hello' || null;
 
 console.log(andResult2); 
